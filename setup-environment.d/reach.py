@@ -4,6 +4,7 @@ def __after_init_reach_yocto():
                     [
                      'meta-fsl-arm',
                      'meta-openembedded/meta-oe',
+                     'meta-openembedded/meta-ruby',
                      'meta-reach',
                      'meta-qt5'
                     ]])
