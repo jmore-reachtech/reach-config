@@ -41,6 +41,7 @@ def __after_init_reach_yocto():
     append_layers([ os.path.join(PLATFORM_ROOT_DIR, 'sources', p) for p in
                     [
                      'meta-fsl-arm',
+                     'meta-fsl-demos',
                      'meta-openembedded/meta-oe',
                      'meta-openembedded/meta-ruby',
                      'meta-openembedded/meta-python',
