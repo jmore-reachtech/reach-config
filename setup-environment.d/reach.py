@@ -43,7 +43,7 @@ def __after_init_reach_yocto():
                      'meta-fsl-arm',
                      'meta-fsl-demos',
                      'meta-openembedded/meta-oe',
-                     'meta-openembedded/meta-ruby',
+                     'meta-openembedded/meta-networking',
                      'meta-openembedded/meta-python',
                      'meta-reach',
                      'meta-qt5'
