@@ -4,7 +4,8 @@ def __set_defaults_reach_yocto():
 
     valid_distros = ['reach', 'reach-x11']
     valid_machines = ['g2c-4_3-inch', 'g2c-4_3-inch-lite',
-                      'g2h-10_1-inch', 'g2h-5_7-inch', 'g2h-7-inch']
+                      'g2h-10_1-inch', 'g2h-5_7-inch', 'g2h-7-inch', 
+                      'g2h-10_4-inch']
 
     local_conf_exists = os.path.isfile(os.path.join(build_dir,
                                                     'conf',
