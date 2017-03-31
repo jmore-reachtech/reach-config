@@ -39,8 +39,8 @@ def __after_init_reach_yocto():
     PLATFORM_ROOT_DIR = os.environ['PLATFORM_ROOT_DIR']
     append_layers([ os.path.join(PLATFORM_ROOT_DIR, 'sources', p) for p in
                     [
-                     'meta-fsl-arm',
-                     'meta-fsl-demos',
+                     'meta-freescale',
+                     'meta-freescale-distro',
                      'meta-openembedded/meta-oe',
                      'meta-openembedded/meta-networking',
                      'meta-openembedded/meta-python',
@@ -49,7 +49,7 @@ def __after_init_reach_yocto():
                     ]])
 
     # FSL EULA
-    eulas.accept['meta-fsl-arm/EULA'] = 'ACCEPT_FSL_EULA = "1"'
+    eulas.accept['meta-freescale/EULA'] = 'ACCEPT_FSL_EULA = "1"'
 
 run_set_defaults(__set_defaults_reach_yocto)
 run_after_init(__after_init_reach_yocto)
