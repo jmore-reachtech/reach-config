@@ -45,6 +45,7 @@ def __after_init_reach_yocto():
                      'meta-openembedded/meta-networking',
                      'meta-openembedded/meta-python',
                      'meta-reach',
+                     'meta-qt4',
                      'meta-qt5'
                     ]])
 
