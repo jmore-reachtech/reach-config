@@ -7,6 +7,7 @@ def __after_init_reach_yocto():
                     [
                         'meta-freescale',
                         'meta-openembedded/meta-oe',
+                        'meta-qt5',
                         'meta-reach',
                     ]])
 
